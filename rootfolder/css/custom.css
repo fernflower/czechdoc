@@ -177,7 +177,7 @@ input[type="radio"].toggle:checked + label:after {
   left: 0;
 }
 form h6{
-    color: #D1D1D1;
+    color: rgba(0,0,0,0.5);
     font-weight: 100;
     font-size: 0.938em;
 }
@@ -196,6 +196,10 @@ form h6{
     display: flex;
     justify-content: center;
 }
+.other_links h3{
+    font-weight: 100;
+    padding-bottom: 8%;
+}
 .word_document{
     padding-left: 5%;
 }
@@ -210,7 +214,65 @@ form h6{
     padding-left: 10px;
     font-size: 1.563em;
 }
-.work{
+.work-link{
     border: 1px solid #0ED2F7;
-    background-color: #DAF4F9;
+    background-color: #0ED2F7;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin: 5%;
+    
+}
+.work-link i{
+    padding: 0%;
+    font-size: 1.3em;
+}
+.work-link p{
+    margin-bottom: 0px;
+}
+footer{
+    background-color: #222222;
+    color: white;
+    padding-bottom: 10%;
+    margin-top: 20%;
+}
+footer h3{
+    font-weight: 100;
+}
+.h3_white_underline{
+    border-bottom: 1px solid white;
+}
+footer h3{
+    padding: 10% 5%;
+}
+footer .row{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer .col-12{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .col-12 a i{
+    padding-left: 10px;
+}
+hr{
+    margin-bottom: 10%;
+    margin-top: 10%;  
+}
+#footer-hr{
+    background-color: rgba(255,255,255,0.1);
+
+}
+#social i{
+    font-size: 2em;
+    margin: 5px;
 }
