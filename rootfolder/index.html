@@ -2,7 +2,7 @@
 <html>
 <head>
     
-<title>Anna Holko Portfolio</title>
+<title>CzechDoc</title>
 
 <!---- META ---->
     
@@ -44,211 +44,25 @@
 
 
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">о нас<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="all_projects.html">анкета</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about_me">врачом в чехии</a>
-            </li>
-            <li id="contact_button" class="nav-item">
-                <a class="nav-link" href="#contact_me">устав</a>
-            </li>
-            <li id="contact_button" class="nav-item">
-                <a class="nav-link" href="#contact_me">контакты</a>
-            </li>
-        </ul>
-    </div>
-    <a class="navbar-brand" href="index.html">
-        <img src="pics/logo.png" class="logo">
-    </a>
-    <button class="flag">
-        <img src="pics/czech_flag.png">
-    </button>
-</nav>
-    <div class="hero-image">
-    </div>
-<div class="container">
-    <h1 class="first-header">Объединение врачей с иностранным образованием</h1>
-    <div class="logo-header">
-        <img src="pics/doktorcechov.png">
-    </div>
-    <div class="blue-container">
-    <h3><span class="h3_underline">О нас</span></h3>
-        <div class="inside_darkblue_container">
-            <p>Мы некоммерческая организация, созданная для информационной поддержки докторов, провизоров, медсестер и других медицинских специалистов, намеревающихся продолжить свою профессиональную карьеру в Чехии.</p>
-        </div>
-        <div class="inside_darkblue_container">
-            <p>Основателями нашего объединения являются врачи с иностранным образованием, которые успешно подтвердили дипломы, прошли весь путь апробации и в настоящее время работают в чешском здравоохранении.</p>
-        </div>
-        <div class="inside_darkblue_container">
-            <p>Наша организация не только предоставляет информацию об алгоритмах признания медицинских дипломов, но и налаживает контакты с Чешской Врачебной Палатой, Министерством Здравоохранения и др. </p>
-        </div>
-        <div class="inside_darkblue_container">
-            <p>Нашими главными целями являются поддержка профессионального и культурного роста наших членов, достойная презентация врачей-иностранцев на международном уровне, участие в повышении качества медицинской помощи в Чешской Республике. </p>
-        </div>
-    </div>
-    
-<div class="anketa">
-    <h3><span class="h3_black_underline">Анкета для регистрации</span></h3>
-        <form id="contact-form" method="post" action="contact.php" role="form">
-        <div class="messages"></div>
-        <div class="controls">
+<body style="display: flex; flex-direction: column; justify-content: center;">
 
-            <div class="row" id="contact-row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_name">Имя и Фамилия 
-                        </label>
-                        <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Full Name is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_date">Дата рождения</label>
-                        <input id="form_date" type="date" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">E-mail</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Гражданство</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Номер телефона</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <h3>Дополнительные информации:</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Учебное заведение</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Год выпуска</label>
-                        <input id="form_email" type="month" name="start" class="form-control" placeholder="" required="required" data-error="Valid email is required." min="1960-01" value="1960-01">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Специализация</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Если работаете в Чехии:<br>- место работы, специализация</label>
-                        <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email">Апробация</label>
-                            <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" checked>
-                            <label for="toggle-on" class="btn-radio">Да</label>
-                            <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" type="radio">
-                            <label for="toggle-off" class="btn-radio">Нет</label>
-                    </div>
-                    <div class="form-group">
-                        <label for="form_email">Аттестация</label>
-                            <input id="toggle-on" class="toggle toggle-left" name="toggle" value="false" type="radio" checked>
-                            <label for="toggle-on" class="btn-radio">Да</label>
-                            <input id="toggle-off" class="toggle toggle-right" name="toggle" value="true" type="radio">
-                            <label for="toggle-off" class="btn-radio">Нет</label>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <h6>* Годовой взнос 1 000 крон</h6>
-            <div class="col-md-12" id="submit-button">
-                    <input type="submit" class="btn btn-success btn-send" value="Отправить">
-            </div>
-        </div>
-    </form>
-    </div>
-    <hr>
-    <div class="other_links">
-    <h3><span class="h3_black_underline">Устав нашей организации</span></h3>
-    <div class="word_document">
-        <p><i class="fas fa-file-word"></i>.docx документ</p>
-    </div>
-    <hr>
-        <h3><span class="h3_black_underline">Хотите работать врачом в Чехии?</span></h3>
-    <div class="work-link">
-        <a href="#"><div class="work-link"><p>Основные шаги для признания медицинского образования в Чехии</p><i class="fas fa-chevron-right"></i></div></a>
-        <br>
-    </div>
-    </div>
-</div>
-    <footer>
+    
+
+    
     <div class="container">
-        <h3><span class="h3_white_underline">Контакты</span></h3>
-        <div class="row" id="1_footerlink">
-            <div class="col-12">
-            <a href="mailto:info@czechdoc.cz">info@czechdoc.cz</a>
-            </div>
-        </div>
-        <div class="row" id="2_footerlink">
-            <div class="col-12">
-            <a href="#">Реквизиты для оплаты <i class="fas fa-chevron-right"></i></a>
-            </div>
-        </div>
-        <hr id="footer-hr">
-        <div class="row" id="social">
-        <div class="col-12">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+        <hr>
+    <h2 style="text-align: center;">Происходит разработка сайта</h2>
+    <hr>
+</div>
+    <footer style="align-self: center; justify-content: flex-end; margin-top: 0px; background-color: white;">
+    <div class="container" style="justify-content: flex-end; align-self: flex-end;">
+        <div class="row" id="social" style="padding-top: 10%;">
+        <div class="col-12" style="color: #222222">
+            <a href="#"><i class="fab fa-facebook" style="color: #222222"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: #222222"></i></a>
             </div>
         </div>
         </div>
     </footer>
-    
 </body>
 </html>
