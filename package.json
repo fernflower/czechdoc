@@ -1,0 +1,10 @@
+{
+  "name": "czechdoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "serve": "php -S localhost:8000 -t public/",
+    "composer": "docker run --rm --interactive --tty --volume $PWD:/app --volume ${COMPOSER_HOME:-$HOME/.composer}:/tmp composer"
+  }
+}
