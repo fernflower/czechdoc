@@ -2,9 +2,14 @@ body, html{
     height: 100%;
     width: 100%;
     font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
-
 .logo{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
     width: 100%;
 }
 .container-fluid{
@@ -13,22 +18,20 @@ body, html{
     justify-content: space-around;
 
 }
-.container{
-    margin-top: 150vw;
-}
 .navbar-brand{
     display: flex!important;
     justify-content: center;
     margin: none!important;
     padding: none!important;
-    width: 17%;
+    width: 18%;
+    padding: 0px;
 }
 .navbar{
     display: flex;
+    position: absolute;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    position: fixed;
 }
 .bg-light{
     background-color: rgba(255,255,255,0.9)!important;
@@ -45,6 +48,18 @@ body, html{
 .nav-link .flag{
     display: flex!important;
 }
+#sidebar:focus{
+    border: none!important;
+}
+#sidebar ul.components:focus{
+    outline:none!important;
+}
+#mCSB_1:focus{
+    outline:none!important;
+}
+#mCSB_1_container:focus{
+    outline:none!important;
+}
 .flag{
     width: 10%;
     display: flex;
@@ -53,7 +68,6 @@ body, html{
 }
 .flag img{
     width: 100%;
-    
 }
 .hero-image{
     background-image: url(../pics/hero.jpg);
@@ -62,7 +76,7 @@ body, html{
     background-position: center;
     width: 100%;
     height: 70%;
-    position:absolute;
+    position: relative;
 }
 .hero-image img{
     width: 100%;
@@ -74,12 +88,13 @@ body, html{
     padding: 10% 5% 5% 5%;
 }
 .logo-header{
-    display: flex;
-    justify-content: center;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 13%;
 }
 .logo-header img{
-    width: 70%;
+    width: 100%;
 }
 
 .blue-container{
@@ -118,9 +133,6 @@ h3{
     font-weight: 100;
     line-height: 1.8em;
 }
-.h3_black_underline{
-    border-bottom: 1px solid #222222;
-}
 .anketa h3{
     font-weight: 100;
     padding-top: 13%;
@@ -136,6 +148,7 @@ form h3{
 }
 .form-control{
     border-radius: 0px;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.05);
 }
 #attestation{
     display: flex;
@@ -198,6 +211,12 @@ input[type="radio"].toggle:checked + label {
 input[type="radio"].toggle:checked + label:after {
   left: 0;
 }
+.radio-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 form h6{
     color: rgba(0,0,0,0.5);
     font-weight: 100;
@@ -217,6 +236,7 @@ form h6{
 #submit-button{
     display: flex;
     justify-content: center;
+    
 }
 .other_links h3{
     font-weight: 100;
@@ -230,11 +250,14 @@ form h6{
     font-size: 1.125em;
     font-weight: 100;
 }
-.word_document i{
-    text-decoration: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 1.563em;
+.word {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+#steps-arrow{
+    width: 2.8%;
+    margin-left: 5%;
 }
 .work-link{
     border: 1px solid #0ED2F7;
@@ -247,7 +270,12 @@ form h6{
     font-size: 1.1em;
     font-weight: 100;
     margin: 5%;
-    
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(173,173,173,1);
+    box-shadow: 0px 0px 6px 0px rgba(173,173,173,1);
 }
 .work-link i{
     padding: 0%;
@@ -267,6 +295,9 @@ footer h3{
 }
 .h3_white_underline{
     border-bottom: 1px solid white;
+    font-weight: 100;
+    padding-bottom: 8px;
+    line-height: 2em;
 }
 footer h3{
     padding: 10% 5%;
@@ -298,8 +329,22 @@ hr{
     font-size: 2em;
     margin: 5px;
 }
-
-
+.fa-chevron-right{
+    margin-left: 10px;
+}
+.white_hr{
+    border-top: 1px solid rgba(255,255,255,.1);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.social_row{
+    font-size: 2.3em;
+}
+.social_row a{
+    padding-left: 2%;
+    padding-right: 2%;
+}
 /*----
 
 NEW NAVBAR
@@ -325,7 +370,6 @@ a:focus {
     background: #fff;
     border: none;
     border-radius: 0;
-    margin-bottom: 40px;
     z-index: 99;
 }
 .navbar-btn {
@@ -453,12 +497,12 @@ button#sidebarCollapse{
     font-size: 1.1em;
     display: block;
 }
-
-#sidebar ul li a:hover {
-    text-decoration: underline;
-    text-decoration-color: #0ED2F7;
+.sidebar_hover_link{
+    border-bottom: 1px solid white; line-height: 1.7em;
 }
-
+.sidebar_hover_link:hover{
+    border-bottom: 1px solid black; line-height: 1.7em;
+}
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
@@ -509,11 +553,383 @@ a.article:hover {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-#content {
+/*#content {
     width: 100%;
     min-height: 100vh;
     transition: all 0.3s;
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
+}*/
+
+
+
+
+/* ---------VRACHOM V CHEXII -------------*/
+.first-header_vrachom{
+    text-align: left;
+    font-size: 1.563em;
+    font-weight: 100;
+    padding: 10% 5% 0% 5%;
 }
+.h5_black_underline{
+    border-bottom: 1px solid #222222;
+    font-weight: 100;
+    padding-bottom: 8px;
+    line-height: 2em;
+}
+.container_wrapper p{
+    font-weight: 100;
+    line-height: 1.8em;
+}
+.blue-small-container{
+    padding: 5%;
+    background: #0ED2F7; /* fallback for old browsers */
+    color: white;
+    margin-bottom: 5%;
+}
+.steps_wrap{
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.05);
+    margin-top: -5%;
+    padding: 8%;
+    font-size: 0.9em;
+    transform: scale(0.9);
+}
+.steps_wrap .col-6{
+    padding: 0px;
+}
+.left_step_wrap{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.left_step_wrap h5{
+    text-align: left;
+    padding-left: 2%;
+    font-size: 1.5em;
+    margin-top: -5%;
+}
+.left_step_wrap p{
+    text-align: left;
+    padding-left: 2%;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+.left_step_wrap img{
+    width: 70%;
+}
+.right_step_wrap{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.right_step_wrap img{
+    width: 70%;
+}
+.right_step_wrap h5{
+    text-align: right;
+    padding-right: 2%;
+    font-size: 1.5em;
+    margin-top: -5%;
+}
+.right_step_wrap p{
+    text-align: right;
+    padding-right: 2%;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+.detailed_steps_wrap p{
+    font-weight: 100;
+    line-height: 1.8em;
+}
+.detailed_steps_wrap ul{
+    list-style-type: square;
+    line-height: 1.8em;
+}
+.detailed_steps_wrap ul li{
+    font-weight: 100;
+}
+.sub_ul ul{
+    list-style-type: none;
+    margin-top: 5%;
+}
+.sub_li{
+}
+.sub_li p{
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-left: 1px solid #0ED2F7;
+    margin-right: 5%;
+}
+.detailed_steps_wrap h5{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.address_wrap{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 5%;
+    margin-top: 5%;
+    line-height: 1.5em;
+}
+#vazhno{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ============== 768 =================*/
+
+@media only screen and (min-width: 768px) {
+    .logo{
+        width: 60%;
+        height: 100%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .flag{
+        width: 5%;
+        display: flex;
+        align-self:center;
+        border: 0.5px solid rgba(1,1,1,0.05);
+        margin-right: 2%;
+    }
+    .flag img{
+        width: 100%;
+    }
+    .first-header {
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 100;
+        padding: 13% 5% 4% 5%;
+    }
+    .logo-header{
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2%;
+        margin-bottom: 7%;
+    }
+    .blue-container{
+        padding-top: 3%;
+        padding-bottom: 2%;
+        margin-bottom: %;
+    }
+    .blue-container h3{
+        padding-bottom: 5%;
+    }
+    .anketa h3{
+        padding-bottom: 5%;
+    }
+    .other_links h3{
+        padding-bottom: 5%;
+    }
+    .blue-container .row .col-md-6{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .blue-container .row .col-md-6 .inside_darkblue_container{
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+    }
+    #contact-form hr{
+        margin-top: 5%;
+        margin-bottom:6%;
+    }
+    #contact-form h6{
+        text-align: center;
+    }
+    footer{
+        margin-top: 15%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .logo{
+        width: 30%;
+        height: 100%;
+        margin-left: 5%;
+    }
+    .flag{
+        width: 3%;
+        display: flex;
+        align-self:center;
+        border: 0.5px solid rgba(1,1,1,0.05);
+        margin-right: 12px;
+    }
+    .first-header {
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 100;
+        padding: 6% 5% 4% 5%;
+    }
+    .logo-header{
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0%;
+        margin-bottom: 7%;
+    }
+    #submit-button .btn{
+        border-radius: 0px;
+        margin-top: 5%;
+        padding: 2% 5%;
+        font-size: 1.563em;
+        font-weight: 100;
+    }
+    .work-link{
+        margin-top: 0%;
+        font-weight: 400;
+        font-size: 1.2em;
+        -webkit-box-shadow: 0px 0px 6px 0px rgba(173,173,173,1);
+        -moz-box-shadow: 0px 0px 6px 0px rgba(173,173,173,1);
+        box-shadow: 0px 0px 6px 0px rgba(173,173,173,1);
+    }
+    #steps-arrow{
+        width: 2%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (min-width: 1023px) {
+    .navbar{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .flag{
+        width: 2.2%;
+        display: flex;
+        align-self:center;
+        border: 0.5px solid rgba(1,1,1,0.05);
+        margin-right: 12px;
+    }
+    #sidebar{
+        width: 400px;
+        padding-left: 7%;
+        left: -400px;
+    }
+    .first-header {
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: 100;
+        padding: 5% 5% 2% 5%;
+    }
+    .logo-header{
+        width: 25%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    .blue-container h3{
+       padding-bottom: 3%;
+    }
+    .anketa h3{
+        padding-top: 8%;
+        padding-bottom: 3%;
+    }
+    form{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+    #contact-form hr{
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    #submit-button .btn{
+        padding: 1.5% 4%;
+        font-size: 1.1em;
+        font-weight: 400;
+        margin-top: 2.5%;
+    }
+    #afterform-hr{
+        border-color: transparent!important;
+        margin-top: 0%;
+        margin-bottom: 8%;
+    }
+    #aftervrachom-hr{
+        margin-top: 10%;
+        margin-bottom: 8%;
+    }
+    footer{
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+    footer h3{
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .white_hr{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .container_wrapper h5{
+        padding-left: 5%;
+    }
+    .first-header_vrachom{
+        padding: 10% 5% 3% 5%;
+    }
+    .steps_wrap{
+        margin: 10%;
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+    .right_step_wrap img{
+        width: 30%;
+    }
+    .left_step_wrap img{
+        width: 30%;
+    }
+    .left_step_wrap h5{
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .left_step_wrap p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .right_step_wrap h5{
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .right_step_wrap p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .left_step_wrap .col-6{
+        display: flex;
+        flex-direction: column;
+    }
+    .right_step_wrap .col-6{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_step_wrap .col-6:nth-child(2){
+        display: flex;
+        align-content: flex-end;
+        align-items:center;
+        left: -10%;
+    }
+    .right_step_wrap .col-6:nth-child(1){
+        display: flex;
+        align-content: center;
+        align-items:center;
+        left: 10%;
+    }
+    .detailed_steps_wrap img{
+        width: 1%;
+    }
+    .arrow-right{
+        width: 1%;
+    }
+    .sub_li p{
+        margin-top: 1.5%;
+    }
+    
+}
+
+
+

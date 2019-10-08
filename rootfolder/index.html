@@ -17,9 +17,9 @@
 <!---- LINKS ---->
     
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">    
 <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
 <!--
 <link rel="stylesheet" href="https://use.typekit.net/">
 -->
@@ -33,36 +33,316 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
     
-<!---- JS ---->
+<!-- font awesome -->    
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f02cc162e3.js"></script>  
+
     
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/scroll_change_color.js"></script>
-<script src="js/contact.js"></script>
-<script src="https://kit.fontawesome.com/f02cc162e3.js"></script>
+
+
 
 
 </head>
-<body style="display: flex; flex-direction: column; justify-content: center;">
+<body>
 
-    
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <div class="dismiss-wrap">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+                </div>
+            </div>
+            <ul class="list-unstyled components">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><span class="sidebar_hover_link">главная</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#o_nas"><span class="sidebar_hover_link">о нас</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#anketa"><span class="sidebar_hover_link">анкета</span></a>
+                    </li>
+                    <li id="contact_button" class="nav-item">
+                        <a class="nav-link" href="#ustav"><span class="sidebar_hover_link">устав</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vrachom_v_chexii.html"><span class="sidebar_hover_link">врачом в чехии</span></a>
+                    </li>
+                    <li id="contact_button" class="nav-item">
+                        <a class="nav-link" href="#kontakty"><span class="sidebar_hover_link">контакты</span></a>
+                    </li>
+            </ul>
+        </nav>
+        <!-- Page Content  -->
+        
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="pics/logo.png" class="logo">
+            </a>
+            <div class="flag"><a href=""><img class="flag" src="pics/Flag_of_the_Czech_Republic.svg"></a></div>
+        </div>
+    </nav>
     
-    <div class="container">
-        <hr>
-    <h2 style="text-align: center;">Происходит разработка сайта</h2>
-    <hr>
-</div>
-    <footer style="align-self: center; justify-content: flex-end; margin-top: 0px; background-color: white;">
-    <div class="container" style="justify-content: flex-end; align-self: flex-end;">
-        <div class="row" id="social" style="padding-top: 10%;">
-        <div class="col-12" style="color: #222222">
-            <a href="#"><i class="fab fa-facebook" style="color: #222222"></i></a>
-            <a href="#"><i class="fab fa-instagram" style="color: #222222"></i></a>
+<div class="hero-image"></div>
+    
+<div class="container">
+    <h1 class="first-header">Организация врачей с иностранным образованием</h1>
+    <div class="logo-header">
+        <img src="pics/doktorcechov.png">
+    </div>
+    <div class="blue-container">
+    <div id="o_nas"></div>
+    <h3><span class="h3_underline">О нас</span></h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="inside_darkblue_container">
+                    <p>Мы некоммерческая организация, созданная для информационной поддержки докторов, провизоров, медсестер и других медицинских специалистов, намеревающихся продолжить свою профессиональную карьеру в Чехии.</p>
+                </div>
+                <div class="inside_darkblue_container">
+                    <p>Основателями нашего объединения являются врачи с иностранным образованием, которые успешно подтвердили дипломы, прошли весь путь апробации и в настоящее время работают в чешском здравоохранении.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="inside_darkblue_container">
+                    <p>Наша организация не только предоставляет информацию об алгоритмах признания медицинских дипломов, но и налаживает контакты с Чешской Врачебной Палатой, Министерством Здравоохранения и др. </p>
+                </div>
+                <div class="inside_darkblue_container">
+                    <p>Нашими главными целями являются поддержка профессионального и культурного роста наших членов, достойная презентация врачей-иностранцев на международном уровне, участие в повышении качества медицинской помощи в Чешской Республике. </p>
+                </div>
             </div>
         </div>
+    </div>
+<div class="anketa" id="anketa">
+    <h3><span class="h3_black_underline">Анкета для регистрации</span></h3>
+    <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="messages"></div>
+                        <div class="row" id="contact-row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_name">Имя и Фамилия 
+                                    </label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Full Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_date">Дата рождения</label>
+                                    <input id="form_date" type="date" name="dateOfBirth" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_email">E-mail</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_citizenship">Гражданство</label>
+                                    <input id="form_citizenship" type="text" name="citizenship" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_phone">Номер телефона</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-md-6">
+                <!--<h3>Дополнительные информации:</h3>-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_school">Учебное заведение</label>
+                            <input id="form_school" type="text" name="school" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_graduation">Год выпуска</label>
+                            <input id="form_graduation" type="month" name="graduation" class="form-control" placeholder="" required="required" data-error="Valid date is required." min="1950-01" value="1950-01">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_specialization">Специализация</label>
+                            <input id="form_specialization" type="text" name="specialization" class="form-control" placeholder="" required="required" data-error="Valid specialization is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_work">Если работаете в Чехии:<br>- место работы, специализация</label>
+                            <input id="form_work" type="text" name="work" class="form-control" placeholder="">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="radio-buttons">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_approbacia" class="radio-label">Апробация</label>
+                                    <input id="approbacia-on" class="toggle toggle-left" name="approbacia" value="false" type="radio" checked>
+                                    <label for="approbacia-on" class="btn-radio">Да</label>
+                                    <input id="approbacia-off" class="toggle toggle-right" name="approbacia" value="true" type="radio">
+                                    <label for="approbacia-off" class="btn-radio">Нет</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_attestacia" class="radio-label">Аттестация</label>
+                                    <input id="attestacia-on" class="toggle toggle-left" name="attestacia" value="false" type="radio" checked>
+                                    <label for="attestacia-on" class="btn-radio">Да</label>
+                                    <input id="attestacia-off" class="toggle toggle-right" name="attestacia" value="true" type="radio">
+                                    <label for="attestacia-off" class="btn-radio">Нет</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    <hr>
+    <h6>* Годовой взнос 1 000 крон</h6>
+        <div class="form-group col-md-12">
+            <div class="form-group">
+                <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                <div class="help-block with-errors"></div>
+            </div>
+        </div>
+    <div class="col-md-12" id="submit-button">
+            <input type="submit" class="btn btn-success btn-send" value="Отправить">
+    </div>
+</form>
+    </div>
+    <hr id="afterform-hr">
+    <div id="ustav"></div>
+    <div class="other_links">
+        <div id="vrachom_v_chechii"></div>
+        <h3><span class="h3_black_underline">Хотите работать врачом в Чехии?</span></h3>
+    <div class="work-link">
+        <a href="vrachom_v_chexii.html">Основные шаги для признания медицинского образования в Чехии<img src="pics/arrow_right_white.svg" id="steps-arrow"></a>
+        <br>
+    </div>
+        <hr id="aftervrachom-hr">
+        <h3><span class="h3_black_underline">Устав нашей организации</span></h3>
+    <div class="word_document">
+        <a href="../documents/%D0%9F%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%20(2)%20(2).odt"><p><i class="word fas fa-file-word"></i>.docx документ</p></a>
+    </div>
+    </div>
+</div>
+    <div id="kontakty"></div>
+<footer>
+    <div class="container">
+    <h3><span class="h3_white_underline">Контакты</span></h3>
+        <div class="row">
+    <div class="col-12">
+        <a href="mailto:info@czechdoc.cz">info@czechdoc.cz</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+        <a href="#">Реквизиты для оплаты <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <hr class="white_hr">
+        <div class="row social_row">
+        <div class="col-12">
+            <a href="https://www.facebook.com/czechdoc/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/czechdoc/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+
+    
+<!-- javascript -->
+    
+ 
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+ <!-- custom scripts -->  
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+<script src="contact.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+    
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#dismiss, .overlay').on('click', function () {
+            $('#sidebar').removeClass('active');
+            $('.overlay').removeClass('active');
+        });
+        $('.components>li, .overlay').on('click', function () {
+            $('#sidebar').removeClass('active');
+            $('.overlay').removeClass('active');
+        });
+
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').addClass('active');
+            $('.overlay').addClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+</script>
+    <script>
+    $('#sidebar>ul>li>a').on('click', function(){
+        $('#sidebar').collapse('hide');
+});
+    </script>
 </body>
 </html>
