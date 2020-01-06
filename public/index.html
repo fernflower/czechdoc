@@ -116,18 +116,18 @@
             </div>
         </div>
     </div>
+    <!--
 <div class="anketa" id="anketa">
     <h3><span class="h3_black_underline">Анкета для регистрации</span></h3>
     <form id="contact-form" method="post" action="/api/" role="form">
         <div class="row">
             <div class="col-md-6">
-                <div class="messages"></div>
                         <div class="row" id="contact-row">
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_name">Имя и Фамилия 
                                     </label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Full Name is required.">
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Введите полное имя">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_date">Дата рождения</label>
-                                    <input id="form_date" type="date" name="dateOfBirth" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <input id="form_date" type="date" name="dateOfBirth" class="form-control" placeholder="" required="required" data-error="Введите дату рождения">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_email">E-mail</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Введите ваш e-mail адресс">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_citizenship">Гражданство</label>
-                                    <input id="form_citizenship" type="text" name="citizenship" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <input id="form_citizenship" type="text" name="citizenship" class="form-control" placeholder="" required="required" data-error="Введите ваше гражданство">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_phone">Номер телефона</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="" required="required" data-error="Введите ваш номер телефона">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -171,11 +171,12 @@
             </div>
             <div class="col-md-6">
                 <!--<h3>Дополнительные информации:</h3>-->
+    <!--
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="form_school">Учебное заведение</label>
-                            <input id="form_school" type="text" name="school" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                            <input id="form_school" type="text" name="school" class="form-control" placeholder="" required="required" data-error="Введите ваше учебное заведение">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -184,7 +185,7 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="form_graduation">Год выпуска</label>
-                            <input id="form_graduation" type="month" name="graduation" class="form-control" placeholder="" required="required" data-error="Valid date is required." min="1950-01" value="1950-01">
+                            <input id="form_graduation" type="month" name="graduation" class="form-control" placeholder="" required="required" data-error="Введите ваш год выпуска" min="1950-01" value="1950-01">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -193,7 +194,7 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="form_specialization">Специализация</label>
-                            <input id="form_specialization" type="text" name="specialization" class="form-control" placeholder="" required="required" data-error="Valid specialization is required.">
+                            <input id="form_specialization" type="text" name="specialization" class="form-control" placeholder="" required="required" data-error="Введите вашу специализацию">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -238,14 +239,16 @@
         <div class="form-group col-md-12">
             <div class="form-group">
                 <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
-                <div class="help-block with-errors"></div>
+                <input class="form-control d-none" data-recaptcha="true" required data-error="Пожалуйста выполните Капча">
+                <div class="help-block with-errors captcha"></div>
             </div>
         </div>
     <div class="col-md-12" id="submit-button">
             <input type="submit" class="btn btn-success btn-send" value="Отправить">
     </div>
+    <div class="messages"></div>
 </form>
+-->
     </div>
     <hr id="afterform-hr">
     <div id="ustav"></div>
