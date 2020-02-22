@@ -124,56 +124,64 @@
         </div>
     </div>
 <div class="anketa" id="anketa">
-    <h3><span class="h3_black_underline">Анкета для регистрации</span></h3>
+    <h3><span class="h3_black_underline">Регистрация новых членов организации "ДОКТОР ЧЕХОВ"</span></h3>
     <form id="contact-form" method="post" action="/api/" role="form">
         <div class="row">
             <div class="col-md-6">
-                        <div class="row" id="contact-row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_name">Имя и Фамилия
-                                    </label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Введите полное имя">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                <div class="row" id="contact-row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_name">Имя и Фамилия </label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Введите полное имя">
+                            <div class="help-block with-errors"></div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_date">Дата рождения</label>
-                                    <input id="form_date" type="date" name="dateOfBirth" class="form-control" placeholder="" required="required" data-error="Введите дату рождения">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_name_translit">Имя и Фамилия (латиницей)</label>
+                            <input id="form_name_translit" type="text" name="name_translit" class="form-control" placeholder="" required="required" data-error="Введите полное имя используя только символы A-Z" pattern="[A-Za-z][A-Za-z ]*">
+                            <div class="help-block with-errors"></div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_email">E-mail</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Введите ваш e-mail адресс">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_date">Дата рождения</label>
+                            <input id="form_date" type="date" name="dateOfBirth" class="form-control" placeholder="" required="required" data-error="Введите дату рождения">
+                            <div class="help-block with-errors"></div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_citizenship">Гражданство</label>
-                                    <input id="form_citizenship" type="text" name="citizenship" class="form-control" placeholder="" required="required" data-error="Введите ваше гражданство">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_email">E-mail</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Введите ваш e-mail адресс">
+                            <div class="help-block with-errors"></div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_phone">Номер телефона</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="" required="required" data-error="Введите ваш номер телефона">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_citizenship">Гражданство</label>
+                            <input id="form_citizenship" type="text" name="citizenship" class="form-control" placeholder="" required="required" data-error="Введите ваше гражданство">
+                            <div class="help-block with-errors"></div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_phone">Номер телефона</label>
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="" required="required" data-error="Введите ваш номер телефона">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <!--<h3>Дополнительные информации:</h3>-->
@@ -241,15 +249,15 @@
         </div>
     <hr>
     <h6>* Годовой взнос добровольный</h6>
-        <div class="form-group col-md-12">
-            <div class="form-group">
-                <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                <input class="form-control d-none" data-recaptcha="true" required data-error="Пожалуйста выполните Капча">
-                <div class="help-block with-errors captcha"></div>
-            </div>
+    <div class="form-group col-md-12">
+        <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+            <input class="form-control d-none" data-recaptcha="true" required data-error="Пожалуйста выполните Капча">
+            <div class="help-block with-errors captcha"></div>
         </div>
+    </div>
     <div class="col-md-12" id="submit-button">
-            <input type="submit" class="btn btn-success btn-send" value="Отправить">
+        <input type="submit" class="btn btn-success btn-send" value="Отправить">
     </div>
     <div class="messages"></div>
 </form>

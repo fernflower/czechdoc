@@ -17,6 +17,7 @@ $subject = 'New message from contact form';
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name',
+                'name_translit' => 'Name transliteration',
                 'phone' => 'Phone',
                 'email' => 'Email',
                 'dateOfBirth' => 'Date of Birth',
