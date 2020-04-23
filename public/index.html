@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 <meta name="description" content="">
 <meta name="keywords" content="">
-<meta name="author" content="Anna Viatkina">
+<meta name="author" content="Anna Viatkina (orig) and Inessa Vasilevskaya (support)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
@@ -18,18 +18,11 @@
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="static/css/custom.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
-<!--
-<link rel="stylesheet" href="https://use.typekit.net/">
--->
 
 <!---- FAVICON ---->
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png">
-<link rel="manifest" href="/favicon_package_v0.16/site.webmanifest">
-<link rel="mask-icon" href="/favicon_package_v0.16/safari-pinned-tab.svg" color="#ef3955">
+<link rel="icon" type="image/png" sizes="128x128" href="static/pics/favicon_128x128.png">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
@@ -81,9 +74,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-                <img src="pics/logo.png" class="logo">
+                <img src="static/pics/logo.png" class="logo">
             </a>
-            <div class="flag"><a href=""><img class="flag" src="pics/Flag_of_the_Czech_Republic.svg"></a></div>
+            <div class="flag"><a href=""><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"></a></div>
         </div>
     </nav>
 
@@ -92,7 +85,7 @@
 <div class="container">
     <h1 class="first-header">Организация врачей с иностранным образованием</h1>
     <div class="logo-header">
-        <img src="pics/doktorcechov.png">
+        <img src="static/pics/doktorcechov.png">
     </div>
     <div class="blue-container">
     <div id="o_nas"></div>
@@ -125,7 +118,7 @@
     </div>
 <div class="anketa" id="anketa">
     <h3><span class="h3_black_underline">Регистрация новых членов организации "ДОКТОР ЧЕХОВ"</span></h3>
-    <form id="contact-form" method="post" action="/api/" role="form">
+    <form id="contact-form" method="post" action="" role="form">
         <div class="row">
             <div class="col-md-6">
                 <div class="row" id="contact-row">
@@ -255,13 +248,13 @@
 	использованы только Обществом врачей с иностранным образованием «ДОКТОР ЧЕХОВ».
 	Согласие предоставляю на неограниченный период.
     </h6>
-    <div class="form-group col-md-12">
-        <div class="form-group">
-            <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-            <input class="form-control d-none" data-recaptcha="true" required data-error="Пожалуйста выполните Капча">
-            <div class="help-block with-errors captcha"></div>
-        </div>
-    </div>
+    <!-- <div class="form&#45;group col&#45;md&#45;12"> -->
+    <!--     <div class="form&#45;group"> -->
+    <!--         <div class="g&#45;recaptcha" data&#45;sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T&#45;nF6ZyiK" data&#45;callback="verifyRecaptchaCallback" data&#45;expired&#45;callback="expiredRecaptchaCallback"></div> -->
+    <!--         <input class="form&#45;control d&#45;none" data&#45;recaptcha="true" required data&#45;error="Пожалуйста выполните Капча"> -->
+    <!--         <div class="help&#45;block with&#45;errors captcha"></div> -->
+    <!--     </div> -->
+    <!-- </div> -->
     <div class="col-md-12" id="submit-button">
         <input type="submit" class="btn btn-success btn-send" value="Отправить">
     </div>
@@ -274,13 +267,13 @@
         <div id="vrachom_v_chechii"></div>
         <h3><span class="h3_black_underline">Хотите работать врачом в Чехии?</span></h3>
     <div class="work-link">
-        <a href="vrachom_v_chexii.html">Основные шаги для признания медицинского образования в Чехии<img src="pics/arrow_right_white.svg" id="steps-arrow"></a>
+        <a href="vrachom_v_chexii.html">Основные шаги для признания медицинского образования в Чехии<img src="static/pics/arrow_right_white.svg" id="steps-arrow"></a>
         <br>
     </div>
         <hr id="aftervrachom-hr">
         <h3><span class="h3_black_underline">Устав нашей организации</span></h3>
     <div class="word_document">
-        <a href="../documents/stanovy_dc.docx"><p><i class="word fas fa-file-word"></i>.docx документ</p></a>
+        <a href="static/documents/stanovy_dc.docx"><p><i class="word fas fa-file-word"></i>.docx документ</p></a>
     </div>
     </div>
 </div>
@@ -331,7 +324,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
-<script src="contact.js"></script>
+<script src="static/js/contact.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
