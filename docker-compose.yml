@@ -1,0 +1,24 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public:/public
+      - ./configs/nginx/conf.d/:/etc/nginx/conf.d/
+    links:
+      - php
+  php:
+    # image: php:7-fpm
+    image: binfalse/php-fpm-extended
+    volumes:
+      - ./public:/public
+      - ./configs/mail.ini:/usr/local/etc/php/conf.d/mail.ini:ro
+      # provide your own msmtprc config, sample can be found in configs/msmtprc.sample and uncomment next line
+      # - ./configs/msmtprc:/etc/msmtprc:ro 
+    environment:
+      # override default hardcoded value of info@czechdoc.cz
+      - EMAIL_TO=inavasilevskaya@gmail.com
+      # [TESTING ONLY] Skip recaptcha processing
+      - DISABLE_RECAPTCHA=True
