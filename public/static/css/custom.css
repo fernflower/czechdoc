@@ -61,7 +61,7 @@ body, html{
     outline:none!important;
 }
 .flag{
-    width: 10%;
+    width: 15%;
     display: flex;
     align-self:center;
     border: 0.5px solid rgba(1,1,1,0.05)
@@ -690,7 +690,7 @@ a.article:hover {
         width: 100%;
     }
     .flag{
-        width: 5%;
+        width: 15%;
         display: flex;
         align-self:center;
         border: 0.5px solid rgba(1,1,1,0.05);
@@ -755,7 +755,7 @@ a.article:hover {
         margin-left: 5%;
     }
     .flag{
-        width: 3%;
+        width: 15%;
         display: flex;
         align-self:center;
         border: 0.5px solid rgba(1,1,1,0.05);
@@ -800,7 +800,7 @@ a.article:hover {
         padding-right: 10%;
     }
     .flag{
-        width: 2.2%;
+        width: 15%;
         display: flex;
         align-self:center;
         border: 0.5px solid rgba(1,1,1,0.05);
