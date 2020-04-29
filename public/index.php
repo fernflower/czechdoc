@@ -1,7 +1,7 @@
 <?php
     // include i18n class and initialize it
     require_once '../vendor/philipp15b/php-i18n/i18n.class.php';
-    $i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache/', 'ru');
+    $i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache', 'ru');
     # XXX FIXME A quick hack to set default language to ru as fallback is not working for me
     $_SESSION['lang'] = 'ru';
     // Parameters: language file path, cache dir, default language (all optional)
@@ -57,7 +57,7 @@
             </div>
             <ul class="list-unstyled components">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html"><span class="sidebar_hover_link">главная</span><span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.php"><span class="sidebar_hover_link">главная</span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#o_nas"><span class="sidebar_hover_link">о нас</span><span class="sr-only">(current)</span></a>
@@ -84,7 +84,7 @@
           <button type="button" id="sidebarCollapse" class="btn btn-info">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
               <img src="static/pics/logo.png" class="logo">
           </a>
           <div class="row navbar-brand">
