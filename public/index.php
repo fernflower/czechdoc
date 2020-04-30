@@ -8,8 +8,7 @@
 
     // init object: load language files, parse them if not cached, and so on.
     $i18n->init();
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html>
 <head>
 
@@ -69,7 +68,7 @@
                         <a class="nav-link" href="#ustav"><span class="sidebar_hover_link"><?php echo L::menu_charter?></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="vrachom_v_chexii.html"><span class="sidebar_hover_link"><?php echo L::menu_howto?></span></a>
+                        <a class="nav-link" href="vrachom_v_chexii.php"><span class="sidebar_hover_link"><?php echo L::menu_howto?></span></a>
                     </li>
                     <li id="contact_button" class="nav-item">
                         <a class="nav-link" href="#kontakty"><span class="sidebar_hover_link"><?php echo L::menu_contacts?></span></a>
@@ -310,7 +309,7 @@
 		<p><?php echo L::donation_technical_reasons?></p>
 		<p><?php echo L::donation_number?></p>
 		<p><?php echo L::donation_owner?></p>
-    </div>
+            </div>
 	</div>
         <hr class="white_hr">
         <div class="row social_row">
