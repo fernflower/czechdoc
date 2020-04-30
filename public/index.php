@@ -57,22 +57,22 @@
             </div>
             <ul class="list-unstyled components">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php"><span class="sidebar_hover_link">главная</span><span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.php"><span class="sidebar_hover_link"><?php echo L::menu_home?></span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#o_nas"><span class="sidebar_hover_link">о нас</span><span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#o_nas"><span class="sidebar_hover_link"><?php echo L::menu_about?></span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#anketa"><span class="sidebar_hover_link">анкета</span></a>
+                        <a class="nav-link" href="#anketa"><span class="sidebar_hover_link"><?php echo L::menu_form?></span></a>
                     </li>
                     <li id="contact_button" class="nav-item">
-                        <a class="nav-link" href="#ustav"><span class="sidebar_hover_link">устав</span></a>
+                        <a class="nav-link" href="#ustav"><span class="sidebar_hover_link"><?php echo L::menu_charter?></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="vrachom_v_chexii.html"><span class="sidebar_hover_link">врачом в чехии</span></a>
+                        <a class="nav-link" href="vrachom_v_chexii.html"><span class="sidebar_hover_link"><?php echo L::menu_howto?></span></a>
                     </li>
                     <li id="contact_button" class="nav-item">
-                        <a class="nav-link" href="#kontakty"><span class="sidebar_hover_link">контакты</span></a>
+                        <a class="nav-link" href="#kontakty"><span class="sidebar_hover_link"><?php echo L::menu_contacts?></span></a>
                     </li>
             </ul>
         </nav>
@@ -88,8 +88,8 @@
               <img src="static/pics/logo.png" class="logo">
           </a>
           <div class="row navbar-brand">
-              <div class="flag"><a href="/?lang=en"><img class="flag" src="static/pics/gb_flag.svg"></a></div>
               <div class="flag"><a href="/?lang=ru"><img class="flag" src="static/pics/russia_flag.svg"></a></div>
+              <div class="flag"><a href="/?lang=en"><img class="flag" src="static/pics/gb_flag.svg"></a></div>
               <!-- <div class="flag"><a href="/?lang=cs"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"></a></div> -->
           </div>
       </div>
