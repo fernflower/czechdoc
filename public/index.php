@@ -222,7 +222,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label for="form_work"><?php echo L::registration_if_working?><br>-<?php echo L::registration_place_specialization?></label>
+                            <label for="form_work"><?php echo L::registration_if_working?><br><?php echo L::registration_place_specialization?></label>
                             <input id="form_work" type="text" name="work" class="form-control" placeholder="">
                             <div class="help-block with-errors"></div>
                         </div>
@@ -269,7 +269,7 @@
     <!--     </div> -->
     <!-- </div> -->
     <div class="col-md-12" id="submit-button">
-        <input type="submit" class="btn btn-success btn-send" value="Отправить">
+        <input type="submit" class="btn btn-success btn-send" value="<?php echo L::registration_send?>">
     </div>
     <div class="messages"></div>
 </form>
