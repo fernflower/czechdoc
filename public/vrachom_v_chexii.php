@@ -226,7 +226,7 @@
                 <li><?php echo L::step1_li11?></li>
             </ul>
             <hr>
-            <h5 id="vazhno"><?php echo L::step1_important?></h5>
+            <h5 id="vazhno"><?php echo L::important?></h5>
             <hr>
             <ul>
                 <li><?php echo L::step1_li12?></li>
@@ -241,128 +241,125 @@
         </div>
         <br>
         <div class="blue-small-container">
-        <h3><span class="h3_underline">2. Апробация</span></h3>
+        <h3><span class="h3_underline">2. <?php echo L::howto_approbation?></span></h3>
         </div>
 
         <ul>
-            <li>
-                Это подтверждение врачебной квалификации, которое проводит Министерство Здравоохранения и Институт последипломного  образования.
-            </li>
-            <li>
-            Апробация включает в себя три части:
+            <li><?php echo L::step2_li1?></li>
+            <li><?php echo L::step2_li2?>
                 <ol class="sub-list">
-                    <li>Тест по специальности (лечебное дело - для врачей/стоматология - для стоматологов/фармация - для провизоров) + тест по организации здравоохранения.</li>
-                    <li>Практическая часть - шестимесячная стажировка в лечебном учреждении</li>
-                    <li>Устный экзамен</li>
+                    <li><?php echo L::step2_li3?></li>
+                    <li><?php echo L::step2_li4?></li>
+                    <li><?php echo L::step2_li5?></li>
                 </ol>
             </li>
-            <li>Основная информация:</li>
+            <li><?php echo L::step2_li6?></li>
             <div class="sub_li">
-                <p>Экзамены проходят на чешском языке</p>
-                <p>Подать заявление на прохождение апробации можно только после получения нострификации</p>
-                <p>Состав комиссии на устный экзамен определяется Министерством здравоохранения и Врачебными Палатами</p>
-                <p>Подать заявление на прохождении апробации можно только 4 раза. После четвертой неудачной попытки претендент не может больше подать заявление на признание врачебного диплома в Чешской республике.</p>
-                <p>После подачи заявления на первую часть апробационного экзамена необходимо в течение 30 месяцев успешно сдать все экзамены, завершив процесс апробации, иначе попытка отмечается как неуспешная.</p>
+                <p><?php echo L::step2_p1?></p>
+                <p><?php echo L::step2_p2?></p>
+                <p><?php echo L::step2_p3?></p>
+                <p><?php echo L::step2_p4?></p>
+                <p><?php echo L::step2_p5?></p>
             </div>
         </ul>
         <hr>
         <div class="container">
-        <h5>Шаг 1. Подача заявления на апробацию.</h5>
+        <h5><?php echo L::step2_title_1apply?></h5>
             <ul>
-		<li>Подача заявления осуществляется не позднее, чем за 3 месяца до начала экзаменов. Термины можно найти <a href="https://www.ipvz.cz/lekari-zubni-lekari-farmaceuti/aprobacni-zkousky/terminy-jednotlivych-casti-aprobacni-zkousek" style="text-decoration: underline;">здесь</a></li>
-                <li>Заявление можно скачать здесь:
+		<li><?php echo L::step2_li7?> <a href="https://www.ipvz.cz/lekari-zubni-lekari-farmaceuti/aprobacni-zkousky/terminy-jednotlivych-casti-aprobacni-zkousek" style="text-decoration: underline;"><?php echo L::step2_li7_here?></a></li>
+                <li><?php echo L::step2_li8?>
                     <br><br>
                 <a href="https://www.ipvz.cz/seznam-souboru/4734-zadost-o-uznani-zpusobilosti-k-vykonu-zdravotnickeho-povolani-a-vykonani-aprobacni-zkousky-2-2018.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Žádost o uznání způsobilosti k výkonu zdravotnického povolání a vykonání aprobační zkoušky</span></a><br><br>
                 </li>
-                <li>К заявлению необходимо приложить:
+                <li><?php echo L::step2_li9?>
                     <ol class="sub-list">
-                        <li>заверенную переведенную копию диплома</li>
-                        <li>заверенную копию нострификации</li>
-                        <li>копию разрешения на работу (если имеется)</li>
-                        <li>справку от врача об отсутствии противопоказаний для работы врачом</li>
+                        <li><?php echo L::step2_li10?></li>
+                        <li><?php echo L::step2_li11?></li>
+                        <li><?php echo L::step2_li12?></li>
+                        <li><?php echo L::step2_li13?></li>
                         <li><a href="https://www.mzcr.cz/Soubor.ashx?souborID=39900&typ=application/pdf&nazev=Doklad_o_zdravotn%C3%AD_zp%C5%AFsobilosti_.pdf" style="text-decoration: underline; padding-left: 3%;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Doklad o zdravotní způsobilosti</span></a></li>
-                        <li>справку о несудимости из страны, гражданином которой Вы являетесь</li>
-                        <li>копию загранпаспорта или паспорта (паспорт только для государств, где не выдаются загранпаспорта, например Республика Беларусь). Копию паспорта НЕ НУЖНО заверять</li>
-                        <li>заверенная копия свидетельства о браке или справка о смене фамилии (в случае смены фамилии)</li>
-                        <li>гербовые марки на 2000 крон (можно купить на любой чешской почте, называется "kolková známka")</li>
+                        <li><?php echo L::step2_li14?></li>
+                        <li><?php echo L::step2_li15?></li>
+                        <li><?php echo L::step2_li16?></li>
+                        <li><?php echo L::step2_li17?></li>
                     </ol>
                 </li>
-                <li>Справка от врача и справка о несудимости должны быть не старше 3 месяцев, копии должны быть заверены у нотариуса и у судебного переводчика.</li>
-                <li>После этого документы отсылаются на адрес:
-                <div class="address_wrap">
-                Ministerstvo zdravotnictví<br>
-                Odbor vědy a lékařských povolání<br>
-                Palackého nám. 4<br>
-                128 01<br>Praha 2</div><br>
-                По этому же адресу можно подать документы лично.
+                <li><?php echo L::step2_li18?></li>
+                <li><?php echo L::step2_li19?>
+                    <div class="address_wrap">
+                    Ministerstvo zdravotnictví<br>
+                    Odbor vědy a lékařských povolání<br>
+                    Palackého nám. 4<br>
+                    128 01<br>Praha 2</div><br>
+                    <?php echo L::step2_li20?>
                 </li>
                 <br><br>
-                <li>ВАЖНО: Оригиналы документов не возвращают, поэтому посылайте заверенные копии</li>
+                <li><?php echo L::step2_li21?></li>
             </ul>
             <hr>
-            <h5>Шаг 2. После получение приглашения на первую часть экзаменов Вас ждут тесты:</h5>
+            <h5><?php echo L::step2_title_2tests?></h5>
             <ul>
-                <li>Оплату производить лучше в день экзамена в кассе Института последипломного образования. Первая попытка - 3000 крон, вторая 4000 крон, третью и последняя 6000 крон.</li>
-                <li>Тесты проводятся на компьютере. </li>
-                <li>Тест по специальности (лечебное дело - для врачей / стоматология - для стоматологов / фармация - для провизоров) включает 120 вопросов, продолжительность 2 часа</li>
-                <li>Тест по организации здравоохранения включает 50 вопросов, продолжительность 50 минут</li>
-                <li>Тесты проводятся <b>ТОЛЬКО</b> на чешском языке, оба теста проходят в один день</li>
-                <li>Тесты многоответные, то есть правильных вариантов может быть несколько. Засчитываются только те вопросы, где отмечены ВСЕ правильные варианты.  </li>
-                <li>Для успешного прохождения необходимо набрать 70% по каждому тесту</li>
-                <li>Результат теста вы получите сразу же</li>
-                <li>После успешно сданного теста вам автоматически по почте придет подтверждение, что вы можете приступать к практической части.</li>
-                <li>При неуспешной сдаче теста, можно попросить посмотреть ошибки “žádost o nahlíduti do chyb”. Это необходимо сделать НЕ ВЫХОДЯ ИЗ КАБИНЕТА, где проходило тестирование. Вы сможете увидеть только вопросы на которые Вы ответили неправильно. Правильные ответы показаны не будут. Такой возможности нет у тех, кто набрал менее 50%.</li>
-                <li>При неуспешной сдаче теста по специальности, Вас не допустят ко второму тесту по организации здравоохранения</li>
-                <li>Официальной базы к подготовке к тестам нет. Вероятные вопросы обсуждаются в некоторых группах в социальных сетях.</li>
+                <li><?php echo L::step2_li22?></li>
+                <li><?php echo L::step2_li23?></li>
+                <li><?php echo L::step2_li24?></li>
+                <li><?php echo L::step2_li25?></li>
+                <li><?php echo L::step2_li26_part1?> <b><?php echo L::step2_li26_part2?></b> <?php echo L::step2_li26_part3?></li>
+                <li><?php echo L::step2_li27?></li>
+                <li><?php echo L::step2_li28?></li>
+                <li><?php echo L::step2_li29?></li>
+                <li><?php echo L::step2_li30?></li>
+                <li><?php echo L::step2_li31?></li>
+                <li><?php echo L::step2_li32?></li>
+                <li><?php echo L::step2_li33?></li>
             </ul>
             <hr>
-            <h5>Шаг 3. Практическая часть апробационного экзамена </h5>
-            <p>это 6 месячная стажировка в больнице, ординации или аптеке со специальным разрешение (akreditované pracoviště pro absolvování praktické části aprobační zkoušky).</p><br>
-            <p>Список учреждений, которые получили специальное разрешение для прохождения практики в рамках апробации постоянно обновляется на сайте Министерства Здравоохранения</p>
+            <h5><?php echo L::step2_title_3practical?></h5>
+            <p><?php echo L::step2_p6?></p><br>
+            <p><?php echo L::step2_p7?></p>
             <a href="http://www.mzcr.cz/Odbornik/obsah/akreditace-pro-odbornou-praxi-v-ramci-prakticke-casti-aprobacni-zkousky_3816_3.html" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Akreditace pro odbornou práci v rámci praktické části aprobační zkoušky</span></a><br><br>
             <ul>
-                <li>Практическую часть можно пройти ТОЛЬКО в этих учреждения</li>
-                <li>Практика длится 6 месяцев при полной 40-часовой рабочей неделе </li>
-                <li>Практику необходимо искать САМОСТОЯТЕЛЬНО</li>
-                <li>При прохождении практики у Вас будет аттестованный врач, который будет контролировать Вашу работу (školitel). Он же имеет право идти с Вами на устный экзамен, НЕОБХОДИМО заранее известить Министерство здравоохранения о его присутствии на экзамене</li>
-                <li>После начала практики необходимо послать подтверждение в Министерство Здравоохранения о том, что Вы приступили к практике.<br><br>
-                <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39892&typ=application/msword&nazev=ozn%C3%A1men%C3%AD_o_zah%C3%A1jen%C3%AD_praktick%C3%A9_%C4%8D%C3%A1sti.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Заявление здесь</span></a><br><br></li>
-                <li>Практическая часть у врачей проходит на 5 отделениях: терапия, хирургия, реанимация, педиатрия, гинекология + одно из вышеперечисленных по Вашему выбору.</li>
-                <li>В течение практики необходимо подготовить 5 историй болезней. Истории могут быть по любой специальности. Одну из историй (на выбор экзаменатора) необходимо будет защитить на устном экзамене. <br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=23520&typ=application/pdf&nazev=Vzory%20př%C3%ADpadových%20studi%C3%AD%20(všeobecné%20lékařstv%C3%AD,%20zubn%C3%AD%20lékařstv%C3%AD,%20farmacie).pdf" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Примеры историй болезни</span></a><br><br>
+                <li><?php echo L::step2_li34?></li>
+                <li><?php echo L::step2_li35?></li>
+                <li><?php echo L::step2_li36?></li>
+                <li><?php echo L::step2_li37?></li>
+                <li><?php echo L::step2_li38?><br><br>
+                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39892&typ=application/msword&nazev=ozn%C3%A1men%C3%AD_o_zah%C3%A1jen%C3%AD_praktick%C3%A9_%C4%8D%C3%A1sti.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a><br><br></li>
+                <li><?php echo L::step2_li39?></li>
+                <li><?php echo L::step2_li40?><br><br>
+                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=23520&typ=application/pdf&nazev=Vzory%20př%C3%ADpadových%20studi%C3%AD%20(všeobecné%20lékařstv%C3%AD,%20zubn%C3%AD%20lékařstv%C3%AD,%20farmacie).pdf" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_examples?></span></a><br><br>
                 </li>
-                <li>Минимально за 3 месяца перед началом устных экзаменов необходимо послать заявление о том, что Вы хотите приступить к устной части<br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39892&typ=application/msword&nazev=ozn%C3%A1men%C3%AD_o_zah%C3%A1jen%C3%AD_praktick%C3%A9_%C4%8D%C3%A1sti.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Заявление здесь</span></a>
+                <li><?php echo L::step2_li41?><br><br>
+                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39892&typ=application/msword&nazev=ozn%C3%A1men%C3%AD_o_zah%C3%A1jen%C3%AD_praktick%C3%A9_%C4%8D%C3%A1sti.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
                     <br><br>
                 </li>
-                <li>После успешной защиты практической части, Министерство выдает подтверждение о пройденной практической части, которое действительно 5 лет</li>
+                <li><?php echo L::step2_li42?></li>
             </ul>
-            <h5>Шаг 4. Устная часть экзамена.</h5>
-            <p>Обязательным условием допуска к устной части являются действительные тесты (30 месяцев от успешной сдачи) и успешно засчитанная практика. </p>
+            <h5><?php echo L::step2_title_4oral?></h5>
+            <p><?php echo L::step2_p8?></p>
             <ul>
-                <li>Оплата производится в кассе в день сдачи экзамена. Первая попытка 4000 крон, вторая 6000 крон, 3 и последняя 9000 крон)</li>
-                <li>Устный экзамен проходит на чешском языке.</li>
-                <li>Вопросы к экзамену  и литература есть на сайте Министерства здравоохранения - в самом низу страницы<br><br>
+                <li><?php echo L::step2_li43?></li>
+                <li><?php echo L::step2_li44?></li>
+                <li><?php echo L::step2_li45?><br><br>
                     <a href="https://www.mzcr.cz/dokumenty/aprobacni-zkousky_1784_952_3.html" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Aprobační zkoušky</span></a>
                     <br><br></li>
-                <li>На экзамене может присутствовать врач, который Вас обучал в течение практики (školitel)</li>
-                <li>Экзамен у врачей проходит по четырем дисциплинам  (гинекология, педиатрия, хирургия, терапия) и разделен на 2 части, то есть между двумя дисциплинами у Вас будет перерыв для подготовки. Сданные части экзамена засчитываются (ТОЛЬКО У ВРАЧЕЙ), стоматологи и провизоры при неуспехе хотя бы у одной дисциплины должны пересдавать все.</li>
-                <li>Стоматологи сдают 6 дисциплин (хирургическая, терапевтическая, детская и ортопедическая стоматология, пародонтология, ортодонтия), провизоры тоже 6 дисциплин (фармакология, фармакогнозия, фарм.химия, контроль лекарств, социальная фармация она же легислатива, фарм.технология). </li>
-                <li>После сдачи устного экзамена Вы получите по почте подтверждение от Министерства здравоохранения, что Вы получили полное подтверждение диплома “odborná způsobilost”.</li>
-                <li>При неуспешной сдаче, Вам необходимо снова подать заявление на прохождение устной части. </li>
+                <li><?php echo L::step2_li46?></li>
+                <li><?php echo L::step2_li47?></li>
+                <li><?php echo L::step2_li48?></li>
+                <li><?php echo L::step2_li49?></li>
+                <li><?php echo L::step2_li50?></li>
             </ul>
             <hr>
-            <h5 id="vazhno">В А Ж Н О!</h5>
+            <h5 id="vazhno"><?php echo L::important?></h5>
             <hr>
             <ul>
-                <li>Если по форс-мажорным обстоятельствам Вы не можете попасть на экзамен, Вам необходимо послать в Министерство здравоохранения заявление о невозможности присутствовать на экзамене, иначе попытка Вам засчитается как неудачная.<br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39893&typ=application/msword&nazev=Formul%C3%A1%C5%99_pro_omluvy_jednotliv%C3%BDch_%C4%8D%C3%A1st%C3%AD_AZ.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Заявления здесь</span></a>
+                <li><?php echo L::step2_li51?><br><br>
+                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39893&typ=application/msword&nazev=Formul%C3%A1%C5%99_pro_omluvy_jednotliv%C3%BDch_%C4%8D%C3%A1st%C3%AD_AZ.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
                     <br><br>
                 </li>
-                <li>Официальные источники информации:<br><br>
-                <a href="https://www.mzcr.cz/dokumenty/aprobacni-zkousky_1784_952_3.html" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Министерство здравоохранения Чешской Республики</span></a>
+                <li><?php echo L::step2_li52?><br><br>
+                <a href="https://www.mzcr.cz/dokumenty/aprobacni-zkousky_1784_952_3.html" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_ministry_of_health?></span></a>
                     <br>
-                <a href="https://www.ipvz.cz/lekari-zubni-lekari-farmaceuti/aprobacni-zkousky/zakladni-informace-o-aprobacnich-zkouskach" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Институт последипломного образования</span></a>
+                <a href="https://www.ipvz.cz/lekari-zubni-lekari-farmaceuti/aprobacni-zkousky/zakladni-informace-o-aprobacnich-zkouskach" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_post_grad_institution?></span></a>
                 </li>
             </ul>
         </div>
