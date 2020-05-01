@@ -88,7 +88,7 @@
           </a>
           <div class="row navbar-brand">
               <div class="flag"><a href="/?lang=ru"><img class="flag" src="static/pics/russia_flag.svg"></a></div>
-              <div class="flag"><a href="/?lang=en"><img class="flag" src="static/pics/gb_flag.svg"></a></div>
+              <div class="flag"><a href="/?lang=en"><img class="flag" src="static/pics/Flag_of_the_United_Kingdom.svg"></a></div>
               <!-- <div class="flag"><a href="/?lang=cs"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"></a></div> -->
           </div>
       </div>
