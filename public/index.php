@@ -89,7 +89,7 @@
 
           <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle languagepicker" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
+                  <a href="#" class="languagepicker" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                       <li><a href="/?lang=ru" class="languagepicker"><img width="15%" src="static/pics/russia_flag.svg"><span>Русский</span></a></li>
                       <li><a href="/?lang=en" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_United_Kingdom.svg"><span>English</span></a></li>
@@ -267,13 +267,13 @@
         <?php echo L::donation_agreement_p3?><br>
         <?php echo L::donation_agreement_p4?>
     </h6>
-    <!-- <div class="form&#45;group col&#45;md&#45;12"> -->
-    <!--     <div class="form&#45;group"> -->
-    <!--         <div class="g&#45;recaptcha" data&#45;sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T&#45;nF6ZyiK" data&#45;callback="verifyRecaptchaCallback" data&#45;expired&#45;callback="expiredRecaptchaCallback"></div> -->
-    <!--         <input class="form&#45;control d&#45;none" data&#45;recaptcha="true" required data&#45;error="Пожалуйста выполните Капча"> -->
-    <!--         <div class="help&#45;block with&#45;errors captcha"></div> -->
-    <!--     </div> -->
-    <!-- </div> -->
+    <div class="form-group col-md-12">
+        <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+            <input class="form-control d-none" data-recaptcha="true" required data-error="<?php echo L::registration_captcha?>">
+            <div class="help-block with-errors captcha"></div>
+        </div>
+    </div>
     <div class="col-md-12" id="submit-button">
         <input type="submit" class="btn btn-success btn-send" value="<?php echo L::registration_send?>">
     </div>
