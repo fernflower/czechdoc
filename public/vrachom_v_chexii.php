@@ -86,7 +86,7 @@
 
           <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                  <a href="#" class="languagepicker" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
+                  <a href="#" class="languagepicker" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-globe"></i> <?php echo L::language_picker_title?><span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                       <li><a href="vrachom_v_chexii.php?lang=ru" class="languagepicker"><img width="15%" src="static/pics/russia_flag.svg"><span>Русский</span></a></li>
                       <!-- <li><a href="/?lang=en" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_United_Kingdom.svg"><span>English</span></a></li> -->
