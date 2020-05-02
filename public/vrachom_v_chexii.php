@@ -75,7 +75,6 @@
         </nav>
         <!-- Page Content  -->
 
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
           <button type="button" id="sidebarCollapse" class="btn btn-info">
@@ -84,11 +83,17 @@
           <a class="navbar-brand" href="index.php">
               <img src="static/pics/logo.png" class="logo">
           </a>
-          <div class="row navbar-brand">
-              <div class="flag"><a href="/?lang=ru"><img class="flag" src="static/pics/russia_flag.svg"></a></div>
-              <!-- <div class="flag"><a href="/?lang=en"><img class="flag" src="static/pics/Flag_of_the_United_Kingdom.svg"></a></div> -->
-              <!-- <div class="flag"><a href="/?lang=cs"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"></a></div> -->
-          </div>
+
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="vrachom_v_chexii.php?lang=ru" class="languagepicker"><img width="15%" src="static/pics/russia_flag.svg"><span>Русский</span></a></li>
+                      <!-- <li><a href="/?lang=en" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_United_Kingdom.svg"><span>English</span></a></li> -->
+                      <!-- <li><a href="/?lang=cs" class="languagepicker"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"><span>Čeština</span></a></li> -->
+                  </ul>
+              </li>
+          </ul>
       </div>
     </nav>
 

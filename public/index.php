@@ -86,11 +86,17 @@
           <a class="navbar-brand" href="index.php">
               <img src="static/pics/logo.png" class="logo">
           </a>
-          <div class="row navbar-brand">
-              <div class="flag"><a href="/?lang=ru"><img class="flag" src="static/pics/russia_flag.svg"></a></div>
-              <div class="flag"><a href="/?lang=en"><img class="flag" src="static/pics/Flag_of_the_United_Kingdom.svg"></a></div>
-              <!-- <div class="flag"><a href="/?lang=cs"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"></a></div> -->
-          </div>
+
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                      <li><a href="/?lang=ru" class="languagepicker"><img width="15%" src="static/pics/russia_flag.svg"><span>Русский</span></a></li>
+                      <li><a href="/?lang=en" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_United_Kingdom.svg"><span>English</span></a></li>
+                      <!-- <li><a href="/?lang=cs" class="languagepicker"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"><span>Čeština</span></a></li> -->
+                  </ul>
+              </li>
+          </ul>
       </div>
     </nav>
 
@@ -280,7 +286,7 @@
         <div id="vrachom_v_chechii"></div>
         <h3><span class="h3_black_underline"><?php echo L::howto_title?></span></h3>
     <div class="work-link">
-        <a href="vrachom_v_chexii.html"><?php echo L::howto_main_steps?><img src="static/pics/arrow_right_white.svg" id="steps-arrow"></a>
+        <a href="vrachom_v_chexii.php"><?php echo L::howto_main_steps?><img src="static/pics/arrow_right_white.svg" id="steps-arrow"></a>
         <br>
     </div>
         <hr id="aftervrachom-hr">
