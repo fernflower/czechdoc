@@ -536,6 +536,14 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #fff;
+    outline: none;
+}
+
+ul li.active>a.languagepicker,
+a[aria-expanded="true"] {
+    background: #fff;
+    color: #6d7fcc;
+    outline: none;
 }
 
 ul.CTAs {

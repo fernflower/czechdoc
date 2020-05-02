@@ -89,11 +89,11 @@
 
           <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle languagepicker" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo L::language_picker_title?><span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                       <li><a href="/?lang=ru" class="languagepicker"><img width="15%" src="static/pics/russia_flag.svg"><span>Русский</span></a></li>
                       <li><a href="/?lang=en" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_United_Kingdom.svg"><span>English</span></a></li>
-                      <!-- <li><a href="/?lang=cs" class="languagepicker"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"><span>Čeština</span></a></li> -->
+                      <!-- <li><a href="/?lang=cs" class="languagepicker"><img width="15%" class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"><span>Čeština</span></a></li> -->
                   </ul>
               </li>
           </ul>

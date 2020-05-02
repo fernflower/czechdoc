@@ -57,13 +57,13 @@
                         <a class="nav-link active" href="index.php"><span class="sidebar_hover_link"><?php echo L::menu_home?></span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#o_nas"><span class="sidebar_hover_link"><?php echo L::menu_about?></span><span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.php#o_nas"><span class="sidebar_hover_link"><?php echo L::menu_about?></span><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#anketa"><span class="sidebar_hover_link"><?php echo L::menu_form?></span></a>
+                        <a class="nav-link" href="index.php#anketa"><span class="sidebar_hover_link"><?php echo L::menu_form?></span></a>
                     </li>
                     <li id="contact_button" class="nav-item">
-                        <a class="nav-link" href="#ustav"><span class="sidebar_hover_link"><?php echo L::menu_charter?></span></a>
+                        <a class="nav-link" href="index.php#ustav"><span class="sidebar_hover_link"><?php echo L::menu_charter?></span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="vrachom_v_chexii.php"><span class="sidebar_hover_link"><?php echo L::menu_howto?></span></a>
@@ -90,7 +90,7 @@
                   <ul class="dropdown-menu" role="menu">
                       <li><a href="vrachom_v_chexii.php?lang=ru" class="languagepicker"><img width="15%" src="static/pics/russia_flag.svg"><span>Русский</span></a></li>
                       <!-- <li><a href="/?lang=en" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_United_Kingdom.svg"><span>English</span></a></li> -->
-                      <!-- <li><a href="/?lang=cs" class="languagepicker"><img class="flag" src="static/pics/Flag_of_the_Czech_Republic.svg"><span>Čeština</span></a></li> -->
+                      <!-- <li><a href="/?lang=cs" class="languagepicker"><img width="15%" src="static/pics/Flag_of_the_Czech_Republic.svg"><span>Čeština</span></a></li> -->
                   </ul>
               </li>
           </ul>
