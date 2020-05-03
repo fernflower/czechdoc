@@ -1,6 +1,6 @@
 <?php
     // include i18n class and initialize it
-    require_once '../vendor/philipp15b/php-i18n/i18n.class.php';
+    require_once './vendor/philipp15b/php-i18n/i18n.class.php';
     $i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache', 'ru');
     # XXX FIXME A quick hack to set default language to ru as fallback is not working for me
     $_SESSION['lang'] = 'ru';

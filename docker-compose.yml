@@ -6,8 +6,8 @@ services:
       - "8080:80"
     volumes:
       - ./public:/public
-        # XXX FIXME generate dir with dependencies on container start
-      - ./vendor:/vendor
+      # XXX FIXME generate dir with dependencies on container start
+      #- ./vendor:/vendor
       - ./configs/nginx/conf.d/:/etc/nginx/conf.d/
     links:
       - php
