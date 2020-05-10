@@ -5,7 +5,7 @@ This fork contains the changes done over the period of voluntarily supporting th
 
 ## Installation
 
-1. `docker-compose up`
+1. `./up.sh`
 2. The website will be available at http://localhost:8080
 
 To make contact form work:

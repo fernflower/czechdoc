@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 // require ReCaptcha class
 require('../../recaptcha-master/src/autoload.php');
 
-$disableRecaptcha = getenv('DISABLE_RECAPTCHA');
+$disableRecaptcha = getenv('DISABLE_RECAPTCHA') ?: false;
 
 // an email address that will receive the email with the output of the form
 $sendTo = getenv('EMAIL_TO') ?: "info@czechdoc.cz";
