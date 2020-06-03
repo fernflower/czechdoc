@@ -334,7 +334,7 @@
                     <a href="https://www.mzcr.cz/Soubor.ashx?souborID=23520&typ=application/pdf&nazev=Vzory%20př%C3%ADpadových%20studi%C3%AD%20(všeobecné%20lékařstv%C3%AD,%20zubn%C3%AD%20lékařstv%C3%AD,%20farmacie).pdf" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_examples?></span></a><br><br>
                 </li>
                 <li><?php echo L::step2_li41?><br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39892&typ=application/msword&nazev=ozn%C3%A1men%C3%AD_o_zah%C3%A1jen%C3%AD_praktick%C3%A9_%C4%8D%C3%A1sti.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
+                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39898&typ=application/msword&nazev=P%C5%99ihl%C3%A1%C5%A1ka_na_p%C3%ADsemnou__%C3%BAstn%C3%AD_%C4%8D%C3%A1st_po_omluv%C4%9B_%C4%8Di_absolvov%C3%A1n%C3%AD_praxe.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
                     <br><br>
                 </li>
                 <li><?php echo L::step2_li42?></li>
