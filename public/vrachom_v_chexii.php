@@ -282,7 +282,7 @@
                         <li><?php echo L::step2_li11?></li>
                         <li><?php echo L::step2_li12?></li>
                         <li><?php echo L::step2_li13?></li>
-                        <li><a href="https://www.mzcr.cz/Soubor.ashx?souborID=39900&typ=application/pdf&nazev=Doklad_o_zdravotn%C3%AD_zp%C5%AFsobilosti_.pdf" style="text-decoration: underline; padding-left: 3%;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Doklad o zdravotní způsobilosti</span></a></li>
+                        <li><a href="https://www.mzcr.cz/wp-content/uploads/wepub/1784/39900/Doklad_o_zdravotn%C3%AD_zp%C5%AFsobilosti_.pdf" style="text-decoration: underline; padding-left: 3%;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Doklad o zdravotní způsobilosti</span></a></li>
                         <li><?php echo L::step2_li14?></li>
                         <li><?php echo L::step2_li15?></li>
                         <li><?php echo L::step2_li16?></li>
@@ -321,20 +321,22 @@
             <h5><?php echo L::step2_title_3practical?></h5>
             <p><?php echo L::step2_p6?></p><br>
             <p><?php echo L::step2_p7?></p>
-            <a href="http://www.mzcr.cz/Odbornik/obsah/akreditace-pro-odbornou-praxi-v-ramci-prakticke-casti-aprobacni-zkousky_3816_3.html" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Akreditace pro odbornou práci v rámci praktické části aprobační zkoušky</span></a><br><br>
+            <a href="https://www.mzcr.cz/odborna-praxe-v-ramci-prakticke-casti-aprobacni-zkousky-lekare/" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Akreditace pro odbornou práci v rámci praktické části aprobační zkoušky - lékaři</span></a><br><br>
+            <a href="https://www.mzcr.cz/odborna-praxe-v-ramci-prakticke-casti-aprobacni-zkousky-zubniho-lekare/" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Akreditace pro odbornou práci v rámci praktické části aprobační zkoušky - zubní lékaři</span></a><br><br>
+            <a href="https://www.mzcr.cz/odborna-praxe-v-ramci-prakticke-casti-aprobacni-zkousky-farmaceuta/" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;">Akreditace pro odbornou práci v rámci praktické části aprobační zkoušky - farmaceuti</span></a><br><br>
             <ul>
                 <li><?php echo L::step2_li34?></li>
                 <li><?php echo L::step2_li35?></li>
                 <li><?php echo L::step2_li36?></li>
                 <li><?php echo L::step2_li37?></li>
                 <li><?php echo L::step2_li38?><br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39892&typ=application/msword&nazev=ozn%C3%A1men%C3%AD_o_zah%C3%A1jen%C3%AD_praktick%C3%A9_%C4%8D%C3%A1sti.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a><br><br></li>
+                    <a href="https://www.mzcr.cz/wp-content/uploads/wepub/1784/39892/oznámení_o_zahájení_praktické_části.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a><br><br></li>
                 <li><?php echo L::step2_li39?></li>
                 <li><?php echo L::step2_li40?><br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=23520&typ=application/pdf&nazev=Vzory%20př%C3%ADpadových%20studi%C3%AD%20(všeobecné%20lékařstv%C3%AD,%20zubn%C3%AD%20lékařstv%C3%AD,%20farmacie).pdf" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_examples?></span></a><br><br>
+                    <a href="https://www.mzcr.cz/wp-content/uploads/wepub/1784/23520/Vzory případových studií (všeobecné lékařství, zubní lékařství, farmacie).pdf" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_examples?></span></a><br><br>
                 </li>
                 <li><?php echo L::step2_li41?><br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39898&typ=application/msword&nazev=P%C5%99ihl%C3%A1%C5%A1ka_na_p%C3%ADsemnou__%C3%BAstn%C3%AD_%C4%8D%C3%A1st_po_omluv%C4%9B_%C4%8Di_absolvov%C3%A1n%C3%AD_praxe.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
+                    <a href="https://www.mzcr.cz/wp-content/uploads/wepub/1784/39898/Přihláška_na_písemnou__ústní_část_po_omluvě_či_absolvování_praxe.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
                     <br><br>
                 </li>
                 <li><?php echo L::step2_li42?></li>
@@ -358,7 +360,7 @@
             <hr>
             <ul>
                 <li><?php echo L::step2_li51?><br><br>
-                    <a href="https://www.mzcr.cz/Soubor.ashx?souborID=39893&typ=application/msword&nazev=Formul%C3%A1%C5%99_pro_omluvy_jednotliv%C3%BDch_%C4%8D%C3%A1st%C3%AD_AZ.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
+                    <a href="https://www.mzcr.cz/wp-content/uploads/wepub/1784/39893/Formulář_pro_omluvy_jednotlivých_částí_AZ.doc" style="text-decoration: underline;"><img src="static/pics/arrow_right.svg" class="arrow-right"><span style="padding-left: 3%;"><?php echo L::step2_application_here?></span></a>
                     <br><br>
                 </li>
                 <li><?php echo L::step2_li52?><br><br>
