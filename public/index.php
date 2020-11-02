@@ -267,13 +267,15 @@
         <?php echo L::donation_agreement_p3?><br>
         <?php echo L::donation_agreement_p4?>
     </h6>
+    <?php if (!getenv("DISABLE_RECAPTCHA", false)): ?>
     <div class="form-group col-md-12">
         <div class="form-group">
             <div class="g-recaptcha" data-sitekey="6LdsebwUAAAAAKtQBTvLm4QUgDWPUr3T-nF6ZyiK" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-            <input class="form-control d-none" data-recaptcha="true" required data-error="<?php echo L::registration_captcha?>">
+            <input class="form-control d-none" data-recaptcha="true" required data-error="Пожалуйста выполните Капча">
             <div class="help-block with-errors captcha"></div>
         </div>
     </div>
+    <?php endif; ?>
     <div class="col-md-12" id="submit-button">
         <input type="submit" class="btn btn-success btn-send" value="<?php echo L::registration_send?>">
     </div>
